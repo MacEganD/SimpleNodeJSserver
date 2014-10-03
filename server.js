@@ -3,7 +3,7 @@ var app = express();
 
 var port = process.env.PORT || 1337;
 
-var http = require('http')
+var http = require('http');
 
 http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
