@@ -15,6 +15,6 @@ app.get('/hello.txt', function(req, res){
 	res.send('Hello World from ExpressJS (via Azure)');
 });
 
-var server = app.listen(port, function() {
+var server = app.listen(port2, function() {
     console.log('Listening on port %d', server.address().port2);
 });
