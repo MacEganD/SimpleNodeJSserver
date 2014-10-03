@@ -8,8 +8,8 @@ http.createServer(function(req, res) {
 var express = require('express');
 var app = express();
 
-//var port = process.env.PORT || 1339;
-var port = 8080;
+var port = process.env.PORT || 8888;
+//var port = 8080;
 app.get('/express.txt', function(req, res){
 	res.send('Hello World from ExpressJS (via Azure)');
 });
